@@ -348,8 +348,10 @@ body {
     cursor: pointer;
 }
 
+/*  || STYLING FOR TABLETS || */
+
 /*  || STYLING FOR MOBILE ||  */
-@media all and (max-height: 576px) {
+@media all and (max-width: 576px) {
     
     /* NAV STYLING */
     .navMenu ul {
