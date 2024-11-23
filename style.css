@@ -349,7 +349,148 @@ body {
 }
 
 /*  || STYLING FOR TABLETS || */
+@media all and (max-width: 768px) {
+   
+      /* NAV STYLING */
+      .navBar ul {
+        display: flex;
+    }
 
+    /* MAIN STYLING */
+    .mainContainer {
+        display: block;
+        max-width: 100%;
+    } 
+    .homeContainer {
+        margin-top: 30%;
+        display: block;
+        width: 100%;
+    }
+    #myName {
+        white-space: nowrap;
+    }
+    .secondaryContainer h1 {
+        font-size: 2.5em;
+    }
+    .secondaryContainer h3 {
+        font-size: 1.4em;
+    }
+    .secondaryContainer p {
+        font-size: 1em;
+    }
+    .socialIcons {
+        display: none;
+    }
+    .myPicture {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .myPicture img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* ABOUT STYLING */
+    .aboutDiv {
+        display: block;
+    }
+    .aboutSection {
+        border-radius: none;
+        min-height: 100%;
+        margin: 25px;
+        background-color: var(--BGCOLOR);
+    }
+    .university, .internship, .skillsDeveloped {
+    margin: 0;
+    }
+    .aboutDiv  p {
+    font-size: 1em;
+    margin-bottom: 25px;
+    }
+    .aboutContainer {
+        height: calc(140vh - 50px);
+    }
+
+    /* SERVICES STYLING */
+    .servicesContainer h2 {
+        margin-bottom: 30px;
+    }
+    .servicesContainer {
+        height: 300%;
+    }
+    .sevicesSection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 25px;
+    }
+    .htmlContainer p, .cssContainer p, .responsiveContainer p, .gitContainer p {
+        font-size: 1em;
+    }
+    .htmlContainer {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .cssContainer {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .responsiveContainer {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .gitContainer{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    /* CONTACT STYLING */
+    .contactSection {
+        display: block;
+    }
+    .workTogether {
+        margin: 0;
+        width: 90%;
+    }
+    .workTogether p {
+        font-size: 1em;
+    }
+    .workTogether h4 {
+        margin: 75px 0 35px 0;
+    }
+    .contactMe {
+        height: 90vh;
+        margin: 0;
+        max-width: 100%;
+    }
+    .contactSection {
+        margin: 0 5% 0 5%;
+    }
+    .inputsContainer input {
+        font-size: 1em;
+        width: 100%;
+    }
+    .inputsContainer {
+        display: block;
+        margin: 0 20px;
+    }
+    .inputsContainer p {
+        margin-bottom: 10px;
+    }
+    .messageMe {
+        display: block;
+    }
+    .messageMe textarea{
+        width: calc(100% - 40px);
+        height: 130px;
+        font-size: 1em;
+        margin: 0 20px;
+    }
+    .contactSection {
+        padding-bottom: 35px;
+    }
+}
 /*  || STYLING FOR MOBILE ||  */
 @media all and (max-width: 576px) {
     
